@@ -1,0 +1,21 @@
+/* NAV */
+.enlaces__content{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 2rem;
+}
+.enlaces__content a{
+    color: var(--white);
+    padding: 5rem 0px;
+}
+.enlaces__content li:first-child{
+    margin-right: auto;
+}
+@media(max-width:480px){
+    .enlaces__content{
+        justify-content: center;
+    }
+    .enlaces__content li:first-child{
+        margin-right: 0px;
+    }
+}
