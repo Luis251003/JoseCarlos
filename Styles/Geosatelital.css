@@ -1,0 +1,100 @@
+.banner{
+    text-align: center;
+    padding: 7rem 0px;
+}
+.banner__title{
+    text-transform: uppercase;
+    font-size: 4.2rem;
+    padding-bottom: 5rem;
+}
+.banner__text{
+    max-width: 70rem;
+    margin: 0 auto;
+    font-weight: 300;
+    padding-bottom: 7rem;
+}
+
+@media(max-width:480px){
+    .banner__title{
+        font-size: 3.2rem;
+    }
+}
+/* :::::::::::: SECTION: REQUERIMIENTO :::::::::::: */
+.section__requerimiento .bold{
+    font-weight: 600;
+}
+.section__requerimiento p{
+    font-weight: 300;
+}
+.requerimiento__cards{
+    display: flex;
+    margin-top: 5rem;
+    column-gap: 3rem;
+}
+.requerimiento__cards .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.requerimiento__cards .card .card__img{
+    height: 100px;
+    width: 100px;
+}
+
+/* :::::::::::: SECTION: USER PERSON :::::::::::: */
+.section__userPerson .cards{
+    display: flex;
+    column-gap: 5rem;
+    margin-top: 7rem;
+}
+.section__userPerson .card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+    text-align: center;
+}
+.section__userPerson .card .card__info{
+    max-width: 400px;
+    margin: 3rem auto 0px;
+}
+.section__userPerson .card .card__title{
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+.section__userPerson .card .card__text{
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin: 2rem 0px;
+}
+@media(max-width:768px){
+    .section__userPerson .cards{
+        flex-direction: column;
+        row-gap: 5rem;
+        align-items: center;
+    }
+    .section__userPerson .card{
+        max-width: 50rem;
+    }
+    .section__userPerson .card .card__info{
+        max-width: none;
+    }
+}
+/* :::::::::::: SECTION: INFO :::::::::::: */
+.section--info .section__img{
+    margin-top: 7rem;
+}
+/* :::::::::::: SECTION: INTERFAZ :::::::::::: */
+.section--interfaz .section__img{
+    display: flex;
+    column-gap: 5rem;
+}
+.section--interfaz .img__container--01{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+.section--interfaz .img__container--02{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

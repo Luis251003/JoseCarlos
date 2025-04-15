@@ -1,7 +1,11 @@
 /* :::::::::: FOOTER :::::::::: */
+footer{
+    background-color: var(--black);
+}
 .footer__content{
     display: flex;
     column-gap: 5rem;
+    padding: 7rem 0px;
 }
 /* INFO */
 .footer__info .footer__title{
@@ -16,9 +20,6 @@
     flex-direction: column;
 }
 /* ENLACES */
-.footer__content{
-    padding-bottom: 7rem;
-}
 .footer__enlaces ul{
     display: flex;
     column-gap: 1.5rem;
