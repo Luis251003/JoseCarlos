@@ -1,0 +1,29 @@
+.section__userStories .cards{
+    display: flex;
+    margin-top: 5rem;
+    column-gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 5rem;
+}
+.section__userStories .card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+    max-width: 30rem;
+}
+.section__userStories .card__img img{
+    max-width: 18rem;
+    margin: 0 auto;
+}
+.section__userStories .card__title{
+    font-weight: 500;
+}
+.section__userStories .card__text{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.section__userStories .card__text span{
+    font-weight: 700;
+}
