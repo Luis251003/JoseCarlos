@@ -1,3 +1,14 @@
+.banner--satelock .banner__title{
+    padding-bottom: 2rem;
+}
+.banner--satelock .banner__text{
+    padding-bottom: 4rem;
+}
+.banner--satelock .banner__img{
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
 .section__userStories .cards{
     display: flex;
     margin-top: 5rem;

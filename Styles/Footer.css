@@ -33,13 +33,15 @@ footer{
     text-align: center;
     padding: 1rem 0px;
 }
+.footer__sign p{
+    line-height: 0px;
+}
 @media(max-width:480px){
     .footer__content{
         flex-direction: column;
     }
     .footer__info ul{
         margin: 3rem 0px 0px 1.8rem;
-        text-align: justify;
         row-gap: 2rem;
     }
     .footer__enlaces ul{

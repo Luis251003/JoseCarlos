@@ -12,6 +12,9 @@
     grid-template-columns: 2fr 1fr;
     column-gap: 5rem;
 }
+.banner .banner__img--responsive{
+    display: none;
+}
 .banner .banner__title{
     text-transform: uppercase;
     font-size: 4.2rem;
@@ -44,19 +47,23 @@
         flex-direction: column-reverse;
         row-gap: 7rem;
     }
-    .banner .banner__img{
-        max-width: 300px;
+    .banner__title,
+    .banner__cargo{
+        text-align: center;
+    }
+    .banner .banner__img--responsive{
+        display: block;
+        max-width: 28rem;
         margin: 0 auto;
+    }
+    .banner .banner__img{
+        display: none;
     }
 }
 @media(max-width:480px){
     .banner .banner__img{
         max-width: 200px;
         margin: 0 auto;
-    }
-    .banner__title,
-    .banner__cargo{
-        text-align: center;
     }
     .banner .banner__title{
         font-size: 3.2rem;

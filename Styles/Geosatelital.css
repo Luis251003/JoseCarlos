@@ -1,6 +1,6 @@
 .banner{
     text-align: center;
-    padding: 7rem 0px;
+    padding: 1rem 0px;
 }
 .banner__title{
     text-transform: uppercase;
@@ -8,7 +8,7 @@
     padding-bottom: 5rem;
 }
 .banner__text{
-    max-width: 70rem;
+    max-width: 80rem;
     margin: 0 auto;
     font-weight: 300;
     padding-bottom: 7rem;
@@ -43,9 +43,21 @@
 }
 
 @media(max-width:480px){
+    .requerimiento__cards .card .card__img{
+        height: 5rem;
+        width: auto;
+    }
+    .requerimiento__cards .card .card__img img{
+        height: 100%;
+        object-fit: cover;
+    }
     .requerimiento__cards{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
+        column-gap: 1rem;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+    .requerimiento__cards .card__text{
+        font-size: 1.4rem;
     }
 }
 /* :::::::::::: SECTION: USER PERSON :::::::::::: */
